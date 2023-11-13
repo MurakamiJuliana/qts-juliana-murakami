@@ -1,0 +1,380 @@
+{
+  "id": "efd221df-58a5-4ece-8582-6adf841e378c",
+  "version": "2.0",
+  "name": "Exercício_LeoAna",
+  "url": "https://www.forever21.com/",
+  "tests": [{
+    "id": "f75e1c7d-f02d-4f61-9e55-cf0124715e7c",
+    "name": "Mensagem não enviada",
+    "commands": [{
+      "id": "5aa5de76-9dd7-4755-8806-814d31e12532",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcc25aa6-2acc-4fab-9127-510a61189010",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1d8f11a-a49e-497a-87be-5fc56302e88d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x13v4lgv .xwmz7sl",
+      "targets": [
+        ["css=.x13v4lgv .xwmz7sl", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_zR']/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div[5]/div/div/div/span/div/a/div/div/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div[2]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1265bdf9-5ed9-4497-b978-f9745ab6269f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.xwmz7sl",
+      "targets": [
+        ["css=.xwmz7sl", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_zR']/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div[5]/div/div/div/span/div/a/div/div/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div[2]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e40d3c12-3e61-48a2-a781-665c97777c1a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.x13v4lgv .xwmz7sl",
+      "targets": [
+        ["css=.x13v4lgv .xwmz7sl", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_zR']/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/div[5]/div/div/div/span/div/a/div/div/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div[2]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01dab4ac-c1ff-4da6-b74e-f7bf05e1d082",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x1i10hfl:nth-child(1) .x6s0dn4 > .x9f619 > .x1lliihq > .x1lliihq",
+      "targets": [
+        ["css=.x1i10hfl:nth-child(1) .x6s0dn4 > .x9f619 > .x1lliihq > .x1lliihq", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_zR']/div/div/div[2]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div[2]/div/div[3]/div/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5e40678-da4e-4340-9921-d72e4185a495",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2391201d-fcbf-45ec-ac48-c01ec40426e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xzsf02u > .xat24cr",
+      "targets": [
+        ["css=.xzsf02u > .xat24cr", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_zR']/div/div/div[2]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8772246-a0a4-4335-995d-e1e1e3e9cb86",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.x14wi4xw",
+      "targets": [
+        ["css=.x14wi4xw", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_zR']/div/div/div[2]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "<p class=\"xat24cr xdj266r xdpxx8g\" dir=\"ltr\"><span data-lexical-text=\"true\">Teste do Selenium</span></p>"
+    }, {
+      "id": "ef4b9d2b-9dc8-483c-97d0-568d0b215c44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xjyslct",
+      "targets": [
+        ["css=.xjyslct", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_zR']/div/div/div[2]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div[2]/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7855c5b3-0c8f-4131-8600-da5e60eee343",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.x1fj9vlw:nth-child(2)",
+      "targets": [
+        ["css=.x1fj9vlw:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_zR']/div/div/div[2]/div/div/div/div/div/div[2]/section/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/div[2]/a/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b46932eb-f980-484c-a46c-b8773acc5826",
+    "name": "Curtida no feed sem sucesso",
+    "commands": [{
+      "id": "26d52dd8-0a24-482f-934a-ab6ce8c2506f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f3a6666-0a14-477d-b48a-fbd840308b63",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77bc10d5-84ab-4c8f-860d-bf0777b1bf35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x1cp0k07 > path",
+      "targets": [
+        ["css=.x1cp0k07 > path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9b658cc3-247c-4f6a-b7cc-f809248a52d5",
+    "name": "Curtida no perfil sem sucesso",
+    "commands": [{
+      "id": "cdf49d46-8070-4b43-8f57-d59a87ede7d1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae19be4b-683e-4a51-b2df-546676e12ecd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c35318a-e48e-421f-ad6c-e711af4632b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x1o5bo1o > .x1lliihq",
+      "targets": [
+        ["css=.x1o5bo1o > .x1lliihq", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dbe0c56-79f1-473d-8ec9-d303c6144ae1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.x1i10hfl:nth-child(2) > .x9f619 > .x9f619 > .x9f619 > .x9f619 > .x9f619 > .x9f619 > .x9f619 > .x1lliihq",
+      "targets": [
+        ["css=.x1i10hfl:nth-child(2) > .x9f619 > .x9f619 > .x9f619 > .x9f619 > .x9f619 > .x9f619 > .x9f619 > .x1lliihq", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_wQ']/div/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/a[2]/div/div/div/div[2]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div/div/div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'leo.scmitd')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53984361-eaae-43b5-8016-757474fd5d02",
+      "comment": "",
+      "command": "type",
+      "target": "css=.x1lugfcp",
+      "targets": [
+        ["css=.x1lugfcp", "css:finder"],
+        ["xpath=//input[@value='leoscmiranda']", "xpath:attributes"],
+        ["xpath=//div[@id='mount_0_0_wQ']/div/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "leoscmiranda"
+    }, {
+      "id": "17da7237-158e-49d7-ac31-ddee738741f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xo1l8bm > .x1lliihq",
+      "targets": [
+        ["css=.xo1l8bm > .x1lliihq", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_wQ']/div/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/a/div/div/div/div[2]/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "728a8952-ca6e-4d8d-849a-5421d4849091",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_aagw",
+      "targets": [
+        ["css=.\\_aagw", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_wQ']/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/section/main/div/div[3]/article/div/div/div/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59c3870b-8832-4f09-a7fa-7d226fe69520",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_aagw",
+      "targets": [
+        ["css=.\\_aagw", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_wQ']/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/section/main/div/div[3]/article/div/div/div/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ee4df99-13de-4d02-9083-b9ec05d2012e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_abpo",
+      "targets": [
+        ["css=.\\_abpo", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_wQ']/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/section/main/div/div[3]/article/div/div/div/div/a/div[3]/ul", "xpath:idRelative"],
+        ["xpath=//div[3]/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d71e74d-21a1-416e-9e27-d44aa63b29de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x1cp0k07 > path",
+      "targets": [
+        ["css=.x1cp0k07 > path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c1e6effe-67b2-4df3-a2b9-7ffa957fa6b9",
+    "name": "Teste pesquisa Zara",
+    "commands": [{
+      "id": "3e026087-fffc-4d66-8386-e30517e0ca00",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.zara.com/br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2041b3b4-d0a1-4d4d-8538-2f6b84a87645",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbd2326b-946c-4b8e-b889-f922874c34a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.layout-search-link__link",
+      "targets": [
+        ["css=.layout-search-link__link", "css:finder"],
+        ["xpath=//div[@id='theme-app']/div/div/header/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.zara.com/br/pt/search')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f18e147b-4130-424e-a8c5-e1e46dc2bcc9",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-products-form-combo-input",
+      "targets": [
+        ["id=search-products-form-combo-input", "id"],
+        ["css=#search-products-form-combo-input", "css:finder"],
+        ["xpath=//input[@id='search-products-form-combo-input']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/article/div/div/section/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "vestido"
+    }, {
+      "id": "65636b6e-7eff-41f2-8954-d61a6621898c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-products-form-combo-input",
+      "targets": [
+        ["id=search-products-form-combo-input", "id"],
+        ["css=#search-products-form-combo-input", "css:finder"],
+        ["xpath=//input[@id='search-products-form-combo-input']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/article/div/div/section/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "60d2fabd-c71f-4e55-9a4f-28debca210e0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "88bb91db-3ca4-4863-b19b-c629e9b5b6ff",
+    "name": "Teste de vestido Forever21",
+    "commands": [{
+      "id": "1b3c6790-72fa-469a-ad16-98524f498a77",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.forever21.com/us/search?q=dress&lang=en_US",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e62ecdae-91c5-4d39-8595-778671367697",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32844a92-f9ea-4d62-aab7-7ef33f0e0d8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-grid__item:nth-child(1) .product-tile__image_wrap:nth-child(1) > .product-tile__image:nth-child(1)",
+      "targets": [
+        ["css=.product-grid__item:nth-child(1) .product-tile__image_wrap:nth-child(1) > .product-tile__image:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Button-Front Denim Tube Dress']", "xpath:img"],
+        ["xpath=//div[@id='product-search-results']/div/div[2]/div[2]/div/div/div/a/div/div[2]/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e1b7625-dcc5-4a6d-860a-aef806e0d0e3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Gift Cards",
+      "targets": [
+        ["linkText=Gift Cards", "linkText"],
+        ["css=.header__quick-link:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='quickLinksDesktop']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.forever21.com/us/shop/catalog/giftcard')])[6]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9916f6dc-4e0e-447c-a042-efde375b97e8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Gift Cards",
+      "targets": [
+        ["linkText=Gift Cards", "linkText"],
+        ["css=.header__quick-link:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='quickLinksDesktop']/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.forever21.com/us/shop/catalog/giftcard')])[6]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "84fc58ef-f8bd-477f-8152-7a0845b83a87",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.instagram.com/", "https://www.instagram.com/leo.sc.miranda/", "https://www.zara.com/br/", "https://www.forever21.com/"],
+  "plugins": []
+}
